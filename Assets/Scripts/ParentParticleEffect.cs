@@ -11,6 +11,6 @@ public class ParentParticleEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        particleEffect.SetVector3("SpawnPos", spawnPos.position);
+        particleEffect.SetVector3("SpawnPosition", spawnPos.position);
     }
 }
